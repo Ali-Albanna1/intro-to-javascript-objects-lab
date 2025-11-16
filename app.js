@@ -279,7 +279,7 @@ Exercise 15
 Solve Exercise 15 here:
 */
 for(let i = 0; i < game.gyms.length; i++) {
-  if(game.gyms[i].difficulty > 8)
+  if(game.gyms[i].difficulty < 8)
   {
     gyms.completed === true
   }
